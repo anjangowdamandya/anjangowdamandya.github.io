@@ -1553,6 +1553,11 @@ ul.social_icons li  a i{
   padding-bottom: 0;
 }
 
+.portfolio_section {
+  margin-top: 50px;
+  padding-bottom: 0;
+}
+
 .portfolio-items, 
 .portfolio-filter {
   list-style: none outside none;
