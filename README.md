@@ -1,1 +1,0 @@
-# anjangowdamandya.github.io
