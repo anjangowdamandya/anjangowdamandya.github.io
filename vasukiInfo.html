@@ -428,11 +428,11 @@ src="https://www.facebook.com/tr?id=1861566707454198&ev=PageView&noscript=1"/></
         
     $(function() 
     {
-        if( ! localStorage.getItem( "runOnce" ) ) 
+        if( ! sessionStorage.getItem( "runOnce" ) ) 
         {
             setTimeout(function() {
                 $("#myModal").modal();
-                localStorage.setItem( "runOnce", true );
+                sessionStorage.setItem( "runOnce", true );
             }, 8000);
             
         }
